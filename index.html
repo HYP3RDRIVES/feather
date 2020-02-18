@@ -1,0 +1,20 @@
+<html>
+<head>
+  <title>HYPERDRIVE-Motivator/text</title>
+  <link rel="stylesheet" type="text/css" href="/custom.css">
+</head>
+<body>
+  <h1>Text</h1>
+  <div style="margin-bottom:20px;">
+    <a class="button btn-tiny" onclick="makeBold()" style="cursor:pointer;"><b>B</b></a>
+  </div>
+  <div class="editorBody" contenteditable="true">
+  </div>
+  <script type="text/javascript">
+  function makeBold() {
+      document.execCommand("bold");
+  }
+  </script>
+  <a class="button btn-blue-glow save" href="#">Save</a>
+</body>
+</html>
